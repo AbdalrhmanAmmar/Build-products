@@ -10,7 +10,8 @@ interface Iprops extends VariantProps<typeof TextVariants> {
 //bg-[#c2344d] hover:bg-red-800 w-full rounded-lg text-white px-3 py-3 duration-200 font-medium
 
 const TextVariants = cva(
-  ["w-full rounded-lg text-white px-3 py-3 duration-200 font-medium"],
+  ["w-full rounded-lg text-white px-3 py-3 duration-200 font-medium",
+"mr-4"],
   {
     variants: {
       Color: {
