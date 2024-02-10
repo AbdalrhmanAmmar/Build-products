@@ -1,0 +1,26 @@
+.container {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: none;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+  }
+  
+  .bisque {
+    background-color: bisque;
+  }
+  
+  .white {
+    background-color: white;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  

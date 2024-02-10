@@ -1,6 +1,6 @@
 import { cva, type VariantProps } from "class-variance-authority";
 import { ReactNode } from "react";
-import { cn } from "../Lists/Utlites";
+import { cn } from "../../util/list";
 
 interface Iprops extends VariantProps<typeof TextVariants> {
   children: ReactNode;
