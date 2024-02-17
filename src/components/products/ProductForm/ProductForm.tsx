@@ -1,10 +1,8 @@
 import Button from "../../common/Button"
 
-interface IProps{
 
-}
 
-const ProductForm = ({}: IProps)=>{
+const ProductForm = ()=>{
   return (
     <>
     <div className="max-w-md mx-auto mt-8 p-6 bg-white rounded-lg shadow-md">
